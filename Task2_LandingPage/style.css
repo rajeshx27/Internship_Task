@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #726f6f;
+}
+
+header {
+  background: #6332e9;
+  padding: 20px 0;
+  color: rgb(243, 235, 235);
+}
+
+.container {
+  width: 92%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 21px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 49px 21px;
+  background: #222;
+  color: white;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h2 {
+  font-size: 41px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #0b84f3;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-img img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.about {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download {
+  background: #7a7575;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
